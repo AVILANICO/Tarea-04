@@ -1,0 +1,1123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://st2.depositphotos.com/1371678/6692/i/450/depositphotos_66920031-stock-photo-black-old-sports-weight.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(240, 255, 255, 0);
+}
+.mainIndex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+nav{
+    /* border: 1px solid white; */
+    width: 70vw;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+nav a{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(255, 230, 0);
+    border-radius: 10px;
+    background-color: rgb(55, 116, 206);
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+nav a:hover{
+    color: rgb(255, 230, 0);
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+.navYLogo{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+.loguito{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.logo{
+    position: absolute;
+    width: 7vw;
+    height: 8vh;
+}
+header{
+    /* border: 1px solid white; */
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 60px;
+    color: white;
+}
+.subtitulo{
+    font-size: 48px;
+    color: white;
+}
+main{
+    /* border: 1px solid white; */
+    position: relative;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.imgPrueba{
+    display: none;
+}
+/* Hacer un DIV con una imagen de fondo que sea el contenedor*/
+
+.imagenIndex{
+    margin-bottom: 2%;
+    width: 50vw;
+    height: 50vh;
+    background-image: url("../images/image-2.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#textoIndex{
+    font-size: 28px;
+    color: white;
+    background-color: rgba(48, 48, 250, 0.452);
+    width: 350px;
+    text-align: center;
+}   
+button{
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    width: 15vw;
+    background: none;
+    color: white;
+    font-size: 2rem;
+}
+button:hover{
+    color: #07e91a;
+    background-color: rgb(0, 0, 0);
+}
+/* ABOUT */
+
+#titAbout{
+    font-size: 60px;
+    color: white;
+}
+.headerAbout{
+    height: 15vh;
+}
+.mainAbout{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.divImagenesAbout{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    order: 0;
+}   
+.divTextAbout{
+    color: white;
+    font-size: 20px;
+    height: 80vh;
+    width: 87vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    order: 1;
+}
+.imgAbout{
+    width: 350px;
+}
+.texto1{
+    font-size: 20px;
+    color: white;
+    width: 20vw;
+}
+.texto2{
+    font-size: 20px;
+    color: white;
+    width: 20vw;
+}
+.texto3{
+    font-size: 20px;
+    color: white;
+    width: 20vw;
+}
+/* contact */
+
+#titContact{
+    font-size: 60px;
+    color: rgb(73, 226, 13);
+}
+.headerContact{
+    width: 90vw;
+    height: 52vh;
+    margin-left: 5%;
+    margin-top: 3%;
+    background-image: url("../images/image-2.jpg");
+}
+.imgContact{
+    display: none;
+}
+.mainContact{
+    height: 30vh;
+    width: 90vw;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#divTextoContact{
+    font-size: 28px;
+    color: white;
+    width: 400px;
+}
+#divContacto{
+    color: white;
+    width: 500px;
+    font-size: 28px;
+}
+#mail{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+#mail:hover{
+    color: rgb(0, 255, 13);
+}
+.contacto2{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contacto2:hover{
+    color: rgb(0, 255, 13);
+}
+/* schedule */
+
+.headerSchedule{
+    height: 18vh;
+}
+.mainSchedule{
+    height: 72vh;
+}
+table{
+    font-size: 20px;
+    width: 45vw;
+    height: 72vh;
+    border: 1px solid white;
+    border-radius: 1%;
+}
+td{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    background-color: darkcyan;
+    color: yellow;
+    text-align: center;
+    font-size: 24px;
+    width: 300px;
+    height: 100px;
+}
+th{
+    border: 3px solid white;
+    border-radius: 5%;
+    color: yellow;
+    text-decoration: underline;
+    background-color: dodgerblue;
+    font-size: 28px;
+    width: 300px;
+    height: 100px;
+}
+
+/* Benefits */
+.headerBenefits{
+    height: 15vh;
+}
+.mainBenefits{
+    height: 77vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+.divImgBenefits{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.divListaBenefits{
+    font-size: 20px;
+    width: 25vw;
+    height: 76vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imgBenefits{
+    width: 300px;
+    height: 200px;
+}
+ol{
+    list-style-type: upper-roman;
+    color: yellow;
+}
+.listUl{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    color: coral;
+}
+#salto::after{
+    content: '\A'; 
+    white-space: pre;
+}
+
+/* RAFFLE */
+
+.headerRaffle{
+    /* border: 1px solid white; */
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mainRaffle{
+    /* border: 1px solid yellow; */
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vw;
+}
+.divImgRaffle{
+    /* border: 1px solid white; */
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.imagenesRaffle{
+    width: 300px;
+}
+.tituloForm{
+    color: white;
+    width: 25rem;
+    text-align: center;
+}
+.divFraseForm{
+    /* border: 2px solid white; */
+    width: 25vw;
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content:space-between;
+    gap: 2rem;
+}
+.formRaffle{
+    /* border: 3px solid rgb(10, 233, 40); */
+    color: yellow;
+    font-size: 20px;
+    height: 70vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: .5rem;
+}
+.nomApellMail{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.generoYcountry{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.tiposDePago{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+.tiposDePago label{
+    font-size: 16px;
+
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.inputServices{
+    height: 14vh;
+}
+.termsAndConditions{
+    border: none;
+    
+}
+.botonEnviar{
+    font-size: 20px;
+    width: 8vw;
+    align-self: center;
+}
+input{
+    height: 1.7rem;
+}
+select{
+    height: 1.7rem;
+}
+footer{
+    /* border: 1px solid rgb(175, 3, 3); */
+    height: 50vh;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    /* border: 1px solid yellow; */
+    width: 50vh;
+    height: 40vh;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    
+    /* INDEX */
+    nav{
+        /* border: 1px solid white; */
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    nav a{
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid rgb(255, 230, 0);
+        border-radius: 50px;
+        background-color: rgb(55, 116, 206);
+        display: flex;
+        align-items: center;
+        height: 1.5rem;
+    }
+    .logo{
+        width: 20vw;
+        height: 10vh;
+    }
+    header{
+        /* border: 1px solid white; */
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .titulo{
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+    main{
+        /* border: 1px solid white; */
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .imagenIndex{
+        margin-bottom: 2%;
+        width: 80vw;
+        height: 50vh;
+        background-image: url("../images/image-2.jpg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #textoIndex{
+        font-size: 1.5rem;
+        width: 70vw;
+        height: 30vh;
+    }
+    button{
+        border: 1px solid white;
+        border-radius: 1.5rem;
+        width: 60vw;
+        background: none;
+        color: white;
+        font-size: 2rem;
+    }
+
+    /* ABOUT */
+    #titAbout{
+        font-size: 3rem;
+        color: white;
+    }
+    .headerAbout{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .mainAbout{
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .divImagenesAbout{
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        order: 0;
+        gap: 1rem;
+    }   
+    .divTextAbout{
+        color: white;
+        font-size: 20px;
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        order: 1;
+    }
+    .imgAbout{
+        width: 30vw;
+        height: 15vh;
+    }
+    .texto1{
+        font-size: 14px;
+        color: white;
+        width: 30vw;
+        height: 10vh;
+    }
+    .texto2{
+        font-size: 14px;
+        color: white;
+        width: 30vw;
+        height: 10vh;
+    }
+    .texto3{
+        font-size: 14px;
+        color: white;
+        width: 30vw;
+        height: 10vh;
+    }
+
+    /* CONTACT */
+
+    #titContact{
+        font-size: 3rem;
+        color: rgb(73, 226, 13);
+    }
+    .headerContact{
+        width: 90vw;
+        height: 50vh;
+        margin-left: 5%;
+        margin-top: 3%;
+        background-image: url("../images/image-2.jpg");
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .imgContact{
+        display: none;
+    }
+    .mainContact{
+        height: 30vh;
+        width: 90vw;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #divTextoContact{
+        font-size: 16px;
+        color: white;
+        width: 30vw;
+        height: 10vh;
+    }
+    #divContacto{
+        color: white;
+        width: 50vw;
+        font-size: 16px;
+    }
+    #mail{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    #mail:hover{
+        color: rgb(0, 255, 13);
+    }
+    .contacto2{
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .contacto2:hover{
+        color: rgb(0, 255, 13);
+    }
+
+    /* SCHEDULE */
+
+    .headerSchedule{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .mainSchedule{
+        height: 60vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    table{
+        font-size: 14px;
+        width: 50vw;
+        height: 50vh;
+        border: 1px solid white;
+        border-radius: 1%;
+    }
+    td{
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5%;
+        background-color: darkcyan;
+        color: yellow;
+        text-align: center;
+        font-size: 14px;
+        width: 40vw;
+        height: 10vh;
+    }
+    th{
+        border: 3px solid white;
+        border-radius: 5%;
+        color: yellow;
+        text-decoration: underline;
+        background-color: dodgerblue;
+        font-size: 14px;
+        width: 40vw;
+        height: 10vh;
+    }
+
+    /* BENEFITS */
+
+    .headerBenefits{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .mainBenefits{
+        height: 70vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .divImgBenefits{
+        height: 70vh;
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 5rem;
+    }
+    .divListaBenefits{
+        font-size: 14px;
+        width: 40vw;
+        height: 70vh;
+        color: rgb(255, 255, 255);
+    }
+    .imgBenefits{
+        width: 40vw;
+        height: 20vh;
+    }
+    ol{
+        list-style-type: upper-roman;
+        color: yellow;
+    }
+    .listUl{
+        list-style-type: lower-roman;
+        list-style-position: inside;
+        color: coral;
+    }
+    #salto::after{
+        content: '\A'; 
+        white-space: pre;
+    }
+
+    /* RAFFLE */
+
+    .headerRaffle{
+        /* border: 1px solid white; */
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .mainRaffle{
+        /* border: 1px solid yellow; */
+        width: 100vw;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .divImgRaffle{
+        /* border: 1px solid white; */
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+    .imagenesRaffle{
+        width: 40vw;
+        height: 20vh;
+    }
+    .divFraseForm{
+        /* border: 2px solid white; */
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .tituloForm{
+        font-size: 18px;
+        color: white;
+        width: 15rem;
+        text-align: center;
+    }
+    .formRaffle{
+        /* border: 3px solid rgb(10, 233, 40); */
+        color: yellow;
+        font-size: 18px;
+        height: 60vh;
+        width: 90vw;
+    }
+    .botonEnviar{
+        font-size: 18px;
+        width: 20vw;
+        align-self: center;
+    }
+    footer{
+        /* border: 1px solid rgb(175, 3, 3); */
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    iframe{
+        /* border: 1px solid yellow; */
+        width: 60vw;
+        height: 20vh;
+    }
+}
+
+/* MEDIDAS TABLET  */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+        /* INDEX */
+        nav{
+            /* border: 1px solid white; */
+            width: 70vw;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 10px;
+        }
+        nav a{
+            font-size: 24px;
+            text-decoration: none;
+            color: white;
+            border: 1px solid rgb(255, 230, 0);
+            border-radius: 30px;
+            background-color: rgb(55, 116, 206);
+            display: flex;
+            align-items: center;
+            height: 2rem;
+        }
+        .logo{
+            width: 15vw;
+            height: 10vh;
+        }
+        header{
+            /* border: 1px solid white; */
+            height: 15vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .titulo{
+            font-size: 3rem;
+            color: white;
+            text-align: center;
+        }
+        .subtitulo{
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
+        main{
+            /* border: 1px solid white; */
+            height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .imagenIndex{
+            margin-bottom: 2%;
+            width: 80vw;
+            height: 50vh;
+            background-image: url("../images/image-2.jpg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #textoIndex{
+            font-size: 24px;
+            width: 50vw;
+            height: 17vh;
+            text-align: center;
+            border-radius: 20px;
+        }
+        button{
+            border: 1px solid white;
+            border-radius: 1.5rem;
+            width: 60vw;
+            background: none;
+            color: white;
+            font-size: 2rem;
+        }
+    
+        /* ABOUT */
+        #titAbout{
+            font-size: 3rem;
+            color: white;
+            text-align: center;
+        }
+        .headerAbout{
+            height: 15vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .mainAbout{
+            height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: .2rem;
+        }
+        .divImagenesAbout{
+            height: 20vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-around;
+            order: 0;
+            gap: 1rem;
+        }   
+        .divTextAbout{
+            color: white;
+            font-size: 20px;
+            height: 20vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            order: 1;
+        }
+        .imgAbout{
+            width: 30vw;
+            height: 20vh;
+        }
+        .texto1{
+            font-size: 20px;
+            color: white;
+            width: 30vw;
+            height: 10vh;
+        }
+        .texto2{
+            font-size: 20px;
+            color: white;
+            width: 30vw;
+            height: 10vh;
+        }
+        .texto3{
+            font-size: 20px;
+            color: white;
+            width: 30vw;
+            height: 10vh;
+        }
+    
+        /* CONTACT */
+    
+        #titContact{
+            font-size: 3rem;
+            color: rgb(73, 226, 13);
+        }
+        .headerContact{
+            width: 90vw;
+            height: 50vh;
+            background-image: url("../images/image-2.jpg");
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgContact{
+            display: none;
+        }
+        .mainContact{
+            height: 30vh;
+            width: 90vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        #divTextoContact{
+            font-size: 20px;
+            color: white;
+            width: 30vw;
+            height: 10vh;
+        }
+        #divContacto{
+            color: white;
+            width: 50vw;
+            font-size: 20px;
+        }
+        #mail{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        #mail:hover{
+            color: rgb(0, 255, 13);
+        }
+        .contacto2{
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .contacto2:hover{
+            color: rgb(0, 255, 13);
+        }
+    
+        /* SCHEDULE */
+    
+        .headerSchedule{
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .mainSchedule{
+            height: 60vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        table{
+            width: 80vw;
+            height: 60vh;
+            border: 1px solid white;
+            border-radius: 1%;
+        }
+        td{
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 5%;
+            background-color: darkcyan;
+            color: yellow;
+            text-align: center;
+            font-size: 18px;
+            width: 60vw;
+            height: 10vh;
+        }
+        th{
+            border: 3px solid white;
+            border-radius: 5%;
+            color: yellow;
+            text-decoration: underline;
+            background-color: dodgerblue;
+            font-size: 18px;
+            width: 60vw;
+            height: 10vh;
+        }
+    
+        /* BENEFITS */
+    
+        .headerBenefits{
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .mainBenefits{
+            height: 70vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            gap: .5rem;
+        }
+        .divImgBenefits{
+            height: 70vh;
+            width: 40vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 5rem;
+        }
+        .divListaBenefits{
+            font-size: 18px;
+            width: 40vw;
+            height: 70vh;
+            color: rgb(255, 251, 0);
+        }
+        .imgBenefits{
+            width: 35vw;
+            height: 25vh;
+        }
+        /* RAFFLE */
+    
+        .headerRaffle{
+            /* border: 1px solid white; */
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .mainRaffle{
+            /* border: 1px solid yellow; */
+            width: 100vw;
+            height: 120vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 3rem;
+        }
+        .divImgRaffle{
+            /* border: 1px solid white; */
+            width: 100vw;
+            height: 20vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-evenly;
+            gap: .2rem;
+        }
+        .imagenesRaffle{
+            width: 35vw;
+            height: 25vh;
+        }
+        .divFraseForm{
+            /* border: 2px solid white; */
+            width: 60vw;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .tituloForm{
+            font-size: 20px;
+            color: white;
+            width: 15rem;
+            text-align: center;
+        }
+        .formRaffle{
+            /* border: 3px solid rgb(10, 233, 40); */
+            color: yellow;
+            font-size: 22px;
+            height: 60vh;
+            width: 40vw;
+        }
+        .botonEnviar{
+            font-size: 18px;
+            width: 20vw;
+            align-self: center;
+        }
+        footer{
+            /* border: 1px solid rgb(175, 3, 3); */
+            width: 100vw;
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        iframe{
+            /* border: 1px solid yellow; */
+            width: 60vw;
+            height: 30vh;
+        }
+}

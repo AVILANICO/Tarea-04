@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle</title>
+    <link rel="stylesheet" href="../styles/styles2.css">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+</head>
+<body class="bodyRaffle">
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./schedule.html">Schedule</a>
+        <a href="./benefits.html">Benefits</a>
+        <a href="#">Raffle</a>
+    </nav>
+    <div class="loguito">
+        <img class="logo" src="../images/logo.png" alt="logo">
+    </div>
+    <header class="headerRaffle">
+            <h1 class="titulo"><u>Raffle</u></h1>
+            <h3 class="subtitulo">Every month in this section you can participate in a raffle</h3>
+    </header>
+    <main class="mainRaffle">
+        <div class="divImgRaffle">
+            <img class="imagenesRaffle" src="../images/gym-1.jpg" alt="gym-1">
+            <img class="imagenesRaffle" src="../images/together.jpg" alt="together">
+        </div>
+
+        <div class="divFraseForm">
+            <h3 class="tituloForm">PARTICIPATE IN OUR RAFFLE FOR A MONTH OF PERSONALIZED TRAINING.</h3>
+
+            <form action="../show_data.html" class="formRaffle" method="get">
+                
+                <fieldset class="nomApellMail">
+                    <label for="nombre">First Name</label>
+                    <input type="text" name="Name" id="nombre" placeholder="Nombre...">
+
+                    <label for="apellido">Last Name</label>
+                    <input type="text" name="LastName" id="apellido" placeholder="Apellido...">
+
+                    <label for="correo">Email</label>
+                    <input type="email" name="Email" id="correo" placeholder="Email...">
+                </fieldset>
+
+                <fieldset class="generoYcountry">
+                    <label for="genero">Choose Your Gender:</label>
+                    <select name="Gender" id="genero">
+                        <option value="">Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="pais">Choose Your Country:</label>
+                    <select name="Country" id="pais">
+                        <option value="">Country</option>
+                        <option value="pais1">pais1</option>
+                        <option value="pais2">pais2</option>
+                        <option value="pais3">pais3</option>                        
+                        <option value="pais4">pais4</option>
+                        <option value="pais5">pais5</option>
+                        <option value="pais6">pais6</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="tiposDePago">
+                    <legend class="legendPagos">Payments Options:</legend>
+
+                    <div>
+                    <input type="radio" name="Payment" id="tipoDePago1" value="cash">
+                    <label for="tipoDePago1">Cash</label>
+                    </div>
+
+                    <div>    
+                    <input type="radio" name="Payment" id="tipoDePago2" value="credit">
+                    <label for="tipoDePago2">Credit Card</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" name="Payment" id="tipoDePago3" value="debit">
+                    <label for="tipoDePago3">Debit Card</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="servicios">
+                    <label for="servicios">Services</label>
+                    <input class="inputServices" type="text" name="Services" id="servicios">
+                </fieldset>
+
+                <fieldset class="termsAndConditions">
+                    <input type="checkbox" name="Terms" id="terminos" value="Accepted">
+                    <label for="terminos">I accept terms and conditions...</label>
+                </fieldset>
+
+                <input class="botonEnviar" type="submit" value="Send">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425.60799490182904!2d-64.18982143250012!3d-31.417874035721592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a3f797c9d77b%3A0x3d280775d97a2d75!2sOlympus%20gym!5e0!3m2!1ses-419!2sar!4v1678992620366!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+</html>
